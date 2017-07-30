@@ -1,9 +1,5 @@
 # Singleton Pattern
 
-<p align="center">
-    <img width="300" src="/singleton-pattern/images/SingletonClass.png">
-</p>
-
 The singleton pattern is used to ensures that there will always be one, and only one instance of a certain class in
 the entire application. This can be useful when your application needs a single object that interacts with multiple
 other objects in your application simultaneously.
@@ -16,6 +12,10 @@ a `getInstance` method. This method will create an instance the first time it's 
 subsequent time it's called it will return that instance. The code that creates an initial instance is wrapped in a
 synchronized block to make sure only one instance will be created if we were to run this method simultaneously across
 multiple threads.
+
+<p align="center">
+    <img width="300" src="/singleton-pattern/images/SingletonClass.png">
+</p>
 
 ## Running the app
 
