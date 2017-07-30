@@ -8,7 +8,7 @@ In this example we're using a deck of playing cards as our singleton class. If w
 a card game, there would only ever be one copy of the deck and one copy of each card in the game.
 
 <p align="center">
-    <img src="https://github.com/scottmcallister/design-pattern-examples-java/singleton-pattern/images/SingletonClass.png">
+    <img src="/images/SingletonClass.png">
 </p>
 
 Instead of providing a public constructor for our class, we're setting the class constructor to be private and exposing
