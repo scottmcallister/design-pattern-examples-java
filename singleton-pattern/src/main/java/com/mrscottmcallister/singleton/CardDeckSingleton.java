@@ -27,7 +27,7 @@ public class CardDeckSingleton {
     }
 
     public LinkedList<String> getCardList() {
-        return cardList;
+        return instance.cardList;
     }
 
     public LinkedList<String> drawCards(int numberToDraw) {
@@ -39,7 +39,9 @@ public class CardDeckSingleton {
     }
 
     public void putBackCards(LinkedList<String> cardsToPutBack) {
-        instance.cardList.addAll(cardsToPutBack);
+        for (int i = 0; i < cardsToPutBack.size(); i++) {
+            instance.cardList.add(cardsToPutBack.get(i));
+        }
     }
 
     public static void shuffleCards() {
