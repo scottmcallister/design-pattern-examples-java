@@ -9,7 +9,7 @@ of a `describe` method.
 This pattern follows the object oriented convention of the "open closed principle". That means any implementation of the
 strategy pattern should be easily extensible without having to modify the strategy's code directly. By creating an
 interface for the type of car engine, we can implement as many type of engines as we like without ever having to touch
-the `EngineStrategy` class itself.
+the `EngineStrategy` interface itself.
 
 <p align="center">
     <img width="500" src="/strategy-pattern/images/StrategyPattern.jpg">
