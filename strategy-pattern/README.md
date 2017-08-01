@@ -26,7 +26,7 @@ $ java -jar target/strategy-pattern-1.0-SNAPSHOT.jar
 
 ## Running Tests
 
-JUnit tests have been written for each public method of our Singleton class.
+JUnit tests have been written for each public method of our Car class.
 
 ```
 $ mvn clean test
