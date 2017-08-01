@@ -42,6 +42,10 @@ public class Car {
         this.retailPrice = retailPrice;
     }
 
+    public void setEngineType(EngineStrategy type) {
+        engine = type;
+    }
+
     public String describe() {
         String response = "It's a " + " " + year + " " + make + " " + model + " for $" + retailPrice;
         response += "\n" + engine.fuel();

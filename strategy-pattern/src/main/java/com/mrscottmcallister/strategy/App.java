@@ -10,13 +10,11 @@ public class App
     {
         Car car1 = new FordMustang();
         Car car2 = new ToyotaPrius();
-        Car car3 = new TeslaModelS();
-        Car[] cars = { car1, car2, car3 };
-        for(int i = 0; i < cars.length; i++) {
-            System.out.println("Car " + (i + 1) + ":");
-           System.out.println(cars[i].describe());
-           System.out.println("\n");
-        }
+        System.out.println(car1.describe() + "\n");
+        System.out.println(car2.describe() + "\n");
 
+        System.out.println("Changing engine type..." + "\n");
+        car1.setEngineType(new HybridEngine());
+        System.out.println(car1.describe() + "\n");
     }
 }
