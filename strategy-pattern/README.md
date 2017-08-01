@@ -12,7 +12,7 @@ interface for the type of car engine, we can implement as many type of engines a
 the `EngineStrategy` class itself.
 
 <p align="center">
-    <img width="300" src="/strategy-pattern/images/StrategyPattern.jpg">
+    <img width="500" src="/strategy-pattern/images/StrategyPattern.jpg">
 </p>
 
 ## Running the app
