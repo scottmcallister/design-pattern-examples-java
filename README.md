@@ -1,3 +1,3 @@
-# design-pacttern-examples-java
+# design-pattern-examples-java
 
 A collection of commonly used design patterns that have been implemented in Java.
