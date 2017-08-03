@@ -13,7 +13,7 @@ overriding it's methods to extend its functionality. In this example we have pea
 that increase the price and modify the ingredients of a sandwich.
 
 <p align="center">
-    <img width="300" src="/decorator-pattern/images/DecoratorPattern.png">
+    <img width="450" src="/decorator-pattern/images/DecoratorPattern.png">
 </p>
 
 ## Running the app
