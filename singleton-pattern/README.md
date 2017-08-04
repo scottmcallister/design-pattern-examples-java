@@ -33,4 +33,3 @@ JUnit tests have been written for each public method of our Singleton class.
 ```
 $ mvn clean test
 ```
-
