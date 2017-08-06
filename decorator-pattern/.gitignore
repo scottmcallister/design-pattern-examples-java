@@ -13,3 +13,6 @@ buildNumber.properties
 
 # Ignore IntelliJ stuff
 .idea
+
+# Mac OS X
+.DS_Store
