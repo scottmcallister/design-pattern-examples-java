@@ -42,3 +42,20 @@ variables through setter methods instead of through the constructor. One problem
 will be in an inconsistent state after it is initialized and before all setter method calls have been completed. 
 
 This example uses a `CustomerAccount` class with 9 different instance variables.
+
+## Running the app
+
+To run this code locally, you can build and run a jar file with Maven:
+
+```
+$ mvn clean install -DskipTests
+$ java -jar target/builder-pattern-1.0-SNAPSHOT.jar
+```
+
+## Running Tests
+
+JUnit tests have been written for this project
+
+```
+$ mvn clean test
+```
