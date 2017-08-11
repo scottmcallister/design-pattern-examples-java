@@ -1,6 +1,6 @@
 # design-pattern-examples-java
 
-A collection of commonly used design patterns that have been implemented in Java.
+A collection of commonly used design patterns that have been implemented in Java. More to come!
 
 ## Design Patterns
 
